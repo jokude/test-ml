@@ -1,0 +1,14 @@
+@import "../../../../../theme.scss";
+
+.nav-header :global {
+  background-color: $primary-color;
+  padding: 8px;
+  height: 40px;
+}
+.nav-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  max-width: $max-column-width;
+  margin: 0 auto;
+}

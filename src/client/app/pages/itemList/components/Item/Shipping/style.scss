@@ -1,0 +1,9 @@
+@import "../../../../../../theme.scss";
+
+$icon-size: 20px;
+
+.shipping-icon {
+  height: $icon-size;
+  width: $icon-size;
+  margin-left: 16px;
+}

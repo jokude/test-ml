@@ -1,0 +1,31 @@
+@import "../../../../theme.scss";
+
+.breadcrumbs-containter {
+  max-width: $max-column-width;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+.breadcrumb-item {
+  font-size: 14px;
+  display: inline-block;
+  color: $text-secondary-color;
+
+  &:not(:last-child)::after {
+    content: '>';
+    margin: 0 8px;
+  }
+
+  &:last-child {
+    font-weight: bold;
+  }
+}
+
+.breadcrumb-item-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: $text-primary-color
+  }
+}

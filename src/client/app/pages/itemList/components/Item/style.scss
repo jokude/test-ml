@@ -1,0 +1,22 @@
+@import "../../../../../theme.scss";
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $background-color;
+  }
+}
+
+.item-info-container {
+  margin: 16px 0 0 16px;
+  flex-grow: 1;
+}
+
+.item-price-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0 32px;
+}

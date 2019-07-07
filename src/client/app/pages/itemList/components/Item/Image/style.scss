@@ -1,0 +1,15 @@
+@import "../../../../../../theme.scss";
+
+$image-size: 180px;
+
+.item-link {
+  width: $image-size;
+  height: $image-size;
+}
+
+.item-image {
+  width: $image-size;
+  height: $image-size;
+  display: block;
+  border-radius: 4px;
+}

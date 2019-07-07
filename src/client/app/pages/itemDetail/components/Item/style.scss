@@ -1,0 +1,25 @@
+@import "../../../../../theme.scss";
+
+.item-detail-container {
+  background-color: $color-white;
+  max-width: $max-column-width;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.item-detail-info-image-container {
+  display: flex;
+}
+
+.item-detail-info-container {
+  padding: 32px 0 0;
+}
+
+.item-detail-image-container {
+  margin-right: 32px;
+  max-width: 680px;
+  width: 100%;
+}
+
+

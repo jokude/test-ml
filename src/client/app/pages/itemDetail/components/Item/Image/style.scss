@@ -1,0 +1,9 @@
+@import "../../../../../../theme.scss";
+
+$image-size: 680px;
+
+.item-detail-image {
+  width: 680px;
+  height: auto;
+  max-width: 100%;
+}

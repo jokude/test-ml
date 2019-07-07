@@ -1,0 +1,13 @@
+@import "../../../../../../theme.scss";
+
+.item-title {
+  color: $text-primary-color;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+  font-weight: normal;
+
+  &:hover {
+    color: $color-black;
+  }
+}

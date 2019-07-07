@@ -1,0 +1,12 @@
+$logo-height: 36px;
+$logo-width: 53px;
+
+.nav-logo {
+  background-image: url('/assets/Logo_ML.png');
+  background-repeat: no-repeat;
+  background-size: $logo-width $logo-height;
+  width: $logo-width;
+  height: $logo-height;
+  padding-right: 40px;
+  text-indent: -999px;
+}
